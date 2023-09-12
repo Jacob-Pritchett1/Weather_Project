@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGPWeather</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="navbar">
+        <h1>Edit Your Post</h1>
+        <div>
+            <a href="/">Home</a>
+            <a href="/logout">Log Out</a>
+        </div>
+    </div>
+    <form action="/edit/{{id}}/finalize" method="post">
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                {% for message in messages %}
+                <p>{{message}}</p>
+                {% endfor %}
+            {% endif %}
+        {%endwith%}
+        <input type="text" name="text" value="text">
+        <input type="Submit" value="Update">
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,111 @@
+.weather-profile {
+    width: 900px;
+    background-color: rgba(0, 37, 146, 0.25);
+    border-radius: 25px;
+    border-left: 2px;
+    border-right: 2px;
+    margin:auto;
+    display:flex;
+    justify-content: space-around;
+}
+/* .weather-details {
+    margin: auto;
+} */
+.weather-type {
+    font-size: 50px;
+    border-bottom: 2px black solid;
+}
+.temperature-reading img {
+    margin-bottom: 100px;
+    size: 200px;
+}
+.temperature-reading  {
+    margin-bottom: 100px;
+    font-size: 90px;
+    height: auto;
+}
+.card {
+    width:200px;
+}
+.container {
+    display: flex;
+}
+.login-signup a {
+    border: 2px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+}
+.login-signup a:hover {
+    background-color: orange;
+    border: 2px solid black;
+}
+.navbar {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: linear-gradient(rgb(0, 126, 210),white);
+    margin-bottom: 100px;;
+}
+.navbar a {
+    margin: 10px;
+}
+.title {
+    width: 900px;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.title h1 {
+    border: 2px solid black;
+    padding: 2px;;
+}
+.title img {
+    size: auto;
+}
+.bg-info {
+    background-color: rgb(0, 126, 210);
+}
+.weather-body{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+.weather-form {
+    border: 2px solid black;
+    border-radius: 25px;
+    margin: auto;
+}
+.temperature-reading h1 {
+    border-bottom: 2px black solid;
+}
+.news-widget {
+    border:2px solid black;
+}
+.button {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+.button:hover {
+    background-color: black;
+    color: white;
+}
+.table {
+    width:auto; 
+    margin: auto;
+}
+.discussion-board {
+    width: 900px;
+    background-color: rgba(0, 37, 146, 0.25);
+    border-radius: 25px;
+    border-left: 2px;
+    border-right: 2px;
+    margin:auto;
+    display:flex;
+    justify-content: space-around;
+    padding: 20px;
+}
